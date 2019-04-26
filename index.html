@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Canvas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="actions" class="actions">
+    <svg id="brush" class="icon active">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id="eraser" class="icon">
+        <use xlink:href="#icon-ERASER"></use>
+    </svg>
+    <svg id="clear" class="icon">
+        <use xlink:href="#icon-shanchu"></use>
+    </svg>
+    <svg id="save" class="icon">
+        <use xlink:href="#icon-Addtodownload"></use>
+    </svg>
+</div>
+<ol class="colors">
+    <li id="black" class="black active"></li>
+    <li id="red" class="red"></li>
+    <li id="blue" class="blue"></li>
+    <li id="green" class="green"></li>
+    <li id="yellow" class="yellow"></li>
+</ol>
+<ol class="lineWidth">
+    <li id="lw1" class="active"></li>
+    <li id="lw2"></li>
+    <li id="lw3"></li>
+    <li id="lw4"></li>
+</ol>
+<script src="//at.alicdn.com/t/font_1162622_6bta6ondvn9.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

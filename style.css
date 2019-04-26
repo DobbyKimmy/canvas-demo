@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+ol{
+    list-style: none;
+}
+#canvas{
+    display: block;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.actions{
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.actions svg{
+    margin: 0 4px;
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.3s;
+}
+.actions svg.active{
+    fill: red;
+    transform: scale(1.5);
+}
+.colors{
+    position: fixed;
+    top: 58px;
+    left: 20px;
+}
+.colors li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 6px 0;
+    box-shadow: 0 0 4px #acacac;
+    transition: all 0.3s;
+}
+.colors li.active{
+    transform: scale(1.2);
+}
+.black{
+    background: #000;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.yellow{
+    background: yellow;
+}
+.lineWidth{
+    position: fixed;
+    left: 18px;
+    top: 200px;
+}
+.lineWidth li{
+    width: 24px;
+    margin: 14px 0;
+    transition: all 0.3s;
+    box-shadow: 0 0 2px #acacac;
+}
+.lineWidth li.active{
+    transform: scale(1.2);
+}
+.lineWidth li:nth-child(1){
+    height: 4px;
+    background: #000;
+}
+.lineWidth li:nth-child(2){
+    height: 6px;
+    background: #000;
+}
+.lineWidth li:nth-child(3){
+    height: 8px;
+    background: #000;
+}
+.lineWidth li:nth-child(4){
+    height: 10px;
+    background: #000;
+}
